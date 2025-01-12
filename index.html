@@ -509,113 +509,85 @@
     -->
 
     <section class="ftco-section" id="project-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Data Analytics projects on SQL, Power BI, Tableau, Advanced Excel.</p>
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+              <h1 class="big big-2">Projects</h1>
+              <h2 class="mb-4">Projects</h2>
+              <p>Below are the sample Data Analytics projects on SQL, Power BI, Tableau, Advanced Excel.</p>
+            </div>
           </div>
+          <div class="row d-flex">
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry justify-content-end">
+                <a href="#" class="block-20 zoom-effect" style="background-image: url('images/Adventure Works.jpg');" onclick="toggleDetails('project1')"></a>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading"><a href="#" onclick="toggleDetails('project1')">Adventure_Works_Cycles performance Analysis</a></h3>
+                  <p>Analyzed Adventure Works Cycle data using dashboards to identify trends, optimize performance, and drive business growth.</p>
+                </div>
+              </div>
+              <div id="project1" class="project-details" style="display:none;">
+                <p>Details about the Adventure Works Cycles performance analysis project go here...</p>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry justify-content-end">
+                <a href="#" class="block-20 zoom-effect" style="background-image: url('images/Ola_Cabs.jpg');" onclick="toggleDetails('project2')"></a>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading"><a href="#" onclick="toggleDetails('project2')">Data Analysis using MySQL</a></h3>
+                  <p>Analyzed OLA CABS booking and driver allocation data using advanced SQL queries to identify key trends, optimize service delivery, and enhance operational performance.</p>
+                </div>
+              </div>
+              <div id="project2" class="project-details" style="display:none;">
+                <p>Details about the OLA CABS driver allocation efficiency project go here...</p>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry">
+                <a href="#" class="block-20 zoom-effect" style="background-image: url('images/E-commerce Sales.png');" onclick="toggleDetails('project3')"></a>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading"><a href="#" onclick="toggleDetails('project3')">Excel dashboard for Ecommerce-Sales-Performance-Analysis</a></h3>
+                  <p>Analyzed eCommerce sales data to uncover insights on sales performance, product trends, customer preferences, and shipping efficiencies, offering actionable recommendations to drive revenue growth and optimize operations.</p>
+                </div>
+              </div>
+              <div id="project3" class="project-details" style="display:none;">
+                <p>Details about the Ecommerce Sales Performance Analysis project go here...</p>
+              </div>
+            </div>
+          </div>
+          <br>
         </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/rimpamandal/Adventure-Works-Data-Driven-Insights-Dashboard" class="block-20 zoom-effect" style="background-image: url('images/Adventure Works.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/rimpamandal/Adventure-Works-Data-Driven-Insights-Dashboard">Adventure_Works_Cycles performance Analysis</a></h3>
-                <p>Analyzed Adventure Works Cycle data using dashboards to identify trends, optimize performance, and drive business growth.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/rimpamandal/Driver-Allocation-Efficiency" class="block-20 zoom-effect" style="background-image: url('images/Ola_Cabs.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/rimpamandal/Driver-Allocation-Efficiency">Data Analysis using MySQL</a></h3>
-                <p>Analyzed OLA CABS booking and driver allocation data using advanced SQL queries to identify key trends, optimize service delivery, and enhance operational performance.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="https://github.com/rimpamandal/Ecommerce-Sales-Performance-Analysis
-			  " class="block-20 zoom-effect" style="background-image: url('images/E-commerce Sales.png');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/rimpamandal/Ecommerce-Sales-Performance-Analysis
-					">Excel dashboard for Ecommerce-Sales-Performance-Analysis</a></h3>
-                <p>Analyzed eCommerce sales data to uncover insights on sales performance, product trends, customer preferences, and shipping efficiencies, offering actionable recommendations to drive revenue growth and optimize operations.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-	<br>
-		
-			</div>
-		 </div>
-	  </div>
-    </section>
-
-	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
-      <!-- <div class="container"> 
-		<div class="row d-md-flex align-items-center">
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="20">0</strong>
-                <span>Achievements</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="30">0</strong>
-                <span>Projects</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="1000">0</strong>
-                <span>Mentored Students</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="500">0</strong>
-                <span>Cups of coffee</span>
+      </div>
+      </section>
+      
+      <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+        <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-7 ftco-animate text-center">
+                <h2>More projects on<span> Github  </span> </h2>
+                <div class="heading">
+                  <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+                  <br>
+                  <p><a href="https://github.com/rimpamandal" class="btn btn-primary py-3 px-5">GitHub</a></p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div> -->
-	
-	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
-			<div class="container"> 
-				<div class="row justify-content-center">
-					<div class="col-md-7 ftco-animate text-center">
-						<h2>More projects on<span> Github  </span> </h2>
-						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
-						<br>
-						<p><a href="https://github.com/rimpamandal" class="btn btn-primary py-3 px-5">GitHub</a></p>
-						</div>
-					</div>
-				</div>
-			</div> 
-		</div>
-	</section> 
-
-
-
+      </section>
+      
+      <script>
+      function toggleDetails(projectId) {
+        var details = document.getElementById(projectId);
+        if (details.style.display === "none") {
+          details.style.display = "block";
+        } else {
+          details.style.display = "none";
+        }
+      }
+      </script>
+      
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
